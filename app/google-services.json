@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "143976651310",
+    "firebase_url": "https://haniapp-b3222.firebaseio.com",
+    "project_id": "haniapp-b3222",
+    "storage_bucket": "haniapp-b3222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143976651310:android:49a1068103b111ff",
+        "android_client_info": {
+          "package_name": "com.example.hani.haniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143976651310-cjse14ae3h2kgj051t9ivgi7snh8h35r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hani.haniapp",
+            "certificate_hash": "f4bd014bbe3c294eb40131be32e48d83867fcdd7"
+          }
+        },
+        {
+          "client_id": "143976651310-0ftsk741m34ec96paqg8vr3cigren1p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_62ei8zroFvOkmujaaaf5IY_c5KIZ1Po"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143976651310-0ftsk741m34ec96paqg8vr3cigren1p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

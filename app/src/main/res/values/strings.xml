@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HaniApp</string>
+    <string name="login">Login</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="go">Go</string>
+</resources>
