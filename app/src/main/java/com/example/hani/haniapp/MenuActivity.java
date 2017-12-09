@@ -97,5 +97,17 @@ public class MenuActivity extends AppCompatActivity {
 
     }
 
+    public void buStudent(View view) {
+        Button btn = (Button) findViewById(R.id.buStudent);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, StudentsListActivity.class));
+            }
+        });
+
+
+    }
+
 
 }
