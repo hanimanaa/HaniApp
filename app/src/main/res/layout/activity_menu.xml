@@ -81,23 +81,23 @@
         android:id="@+id/buChat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="63dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="4dp"
         android:onClick="buChat"
         android:text="Chat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/buStudent"
+        app:layout_constraintStart_toStartOf="@+id/buStudent" />
 
 
     <Button
         android:id="@+id/buStudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="141dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginTop="147dp"
         android:onClick="buStudent"
         android:text="Students"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
