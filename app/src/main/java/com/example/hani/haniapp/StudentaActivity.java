@@ -34,12 +34,7 @@ public class StudentaActivity extends AppCompatActivity {
         ls.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView txtname =(TextView) view.findViewById(R.id.txtId);
-                TextView txtdes =(TextView) view.findViewById(R.id.txtFName);
-                Toast.makeText(getApplicationContext(),txtname.getText(),Toast.LENGTH_LONG).show();
-                Items.add(new Student("rana", "he is okey "));
-                Items.add(new Student("sama", "he is well "));
-                myadpter.notifyDataSetChanged();
+            
 
             }
         });
