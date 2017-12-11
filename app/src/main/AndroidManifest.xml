@@ -28,6 +28,10 @@
         <activity android:name=".AddUserActivity" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".StudentsListActivity" />
+        <activity
+            android:name=".testActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
