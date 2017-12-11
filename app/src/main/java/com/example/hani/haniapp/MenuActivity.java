@@ -108,17 +108,16 @@ public class MenuActivity extends AppCompatActivity {
 
 
     }
- /*   public void btAllSt(View view) {
+    public void btAllSt(View view) {
         Button btn = (Button) findViewById(R.id.btAllSt);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, AllStudentActivity.class));
+                startActivity(new Intent(MenuActivity.this, StudentaActivity.class));
             }
         });
 
 
     }
-*/
 
 }

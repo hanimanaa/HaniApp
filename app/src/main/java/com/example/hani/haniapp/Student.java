@@ -12,6 +12,13 @@ public class Student {
     private String className;
     private String address;
 
+
+    Student(String id,String fname)
+    {
+        this.id=id;
+        this.fName =fname;
+    }
+
     public String getId() {
         return id;
     }
