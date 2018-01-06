@@ -18,8 +18,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toStartOf="@+id/edUser"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edUser"
@@ -82,17 +81,5 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="67dp"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="47dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lock" />
 
 </android.support.constraint.ConstraintLayout>
